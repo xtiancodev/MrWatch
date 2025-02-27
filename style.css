@@ -1,0 +1,208 @@
+/* Estilos generales */
+* {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f0e6;
+    color: #222;
+}
+
+/* Estilos del header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #000;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e0c48c;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+/* Contenedor Principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Sección Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.hero img {
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #c09f60;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+/* Modelos de Reloj */
+.modelos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 20px;
+}
+
+.modelo {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.modelo:hover {
+    transform: scale(1.05);
+}
+
+.modelo img {
+    width: 320px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modelo h2 {
+    margin-top: 15px;
+    font-size: 22px;
+    color: #c09f60;
+}
+
+/* Testimonios */
+.testimonios {
+    text-align: center;
+    padding: 50px;
+    background: #222;
+}
+
+.contenedor-testimonios {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonio {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/* Footer Minimalista */
+footer {
+    background: #111;
+    color: #e0c48c;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-seccion h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer-seccion p, .footer-seccion ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+}
+
+.footer-seccion ul li {
+    margin: 5px 0;
+}
+
+.footer-seccion ul li a {
+    text-decoration: none;
+    color: #e0c48c;
+    transition: color 0.3s;
+}
+
+.footer-seccion ul li a:hover {
+    color: #fff;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.redes-sociales li {
+    list-style: none;
+}
+
+.redes-sociales a {
+    font-size: 20px;
+    color: #e0c48c;
+    transition: color 0.3s;
+}
+
+.redes-sociales a:hover {
+    color: #fff;
+}
+
+.footer-copy {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+}
